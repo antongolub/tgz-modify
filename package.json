@@ -1,8 +1,11 @@
 {
-  "name": "tgz-modify",
+  "name": "@antongolub/tgz-modify",
   "version": "2.0.0",
   "description": "modify .tgz file entries:",
   "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "node tests/test.js"
   },
@@ -16,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gforceg/tgz-modify.git"
+    "url": "git+https://github.com/antongolub/tgz-modify.git"
   },
   "keywords": [
     "tar",
@@ -25,8 +28,8 @@
     "change"
   ],
   "bugs": {
-    "url": "https://github.com/gforceg/tgz-modify/issues"
+    "url": "https://github.com/antongolub/tgz-modify/issues"
   },
   "typings": "index.d.ts",
-  "homepage": "https://github.com/gforceg/tgz-modify#readme"
+  "homepage": "https://github.com/antongolub/tgz-modify#readme"
 }
